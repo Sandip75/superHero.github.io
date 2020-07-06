@@ -1,0 +1,88 @@
+#main-container{
+    border : 6px solid grey;
+  border-radius: 20%;
+  border-width: 10px;
+  padding: 20px;
+	margin: 0 auto;
+		width: 800px;
+}
+
+.centre-allign{
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.imageForHero{
+    height: 80px;
+    width:80px;
+    
+    display: inline-block;
+    margin:auto 0;
+}
+
+#superhero-list li{
+    list-style: none;
+    padding :1px;
+    margin-bottom: 0px;;
+}
+
+#fav-superhero-list li{
+    list-style: none;
+    padding :1px;
+    margin-bottom: 0px;;
+}
+
+#result-superhero-list li{
+    list-style: none;
+    padding :1px;
+    margin-bottom: 0px;;
+}
+
+#total-tasks {
+    margin-bottom: 20px;
+    font-size: 13px;
+      margin-left: 2px;
+      color: gray;
+  }
+#view-favourite{
+    position: fixed;
+      top: 16px;
+      font-size: 30px;;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline;
+}
+
+  #toast {
+    position: fixed;
+      bottom: 16px;
+      color: #fff;
+      font-size: 30px;;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: none;
+  }
+  .toast-error {
+    background: #ff5a5a;
+  }
+  .toast-success {
+    background: #8bc34a;
+  }
+  .toast-neutral {
+    background: #e8f166;
+  }
+
+.button{
+	border:1px purple;
+	background-color: burlywood;
+	margin: 10px 0 0;
+
+}
+
+/* Add Styling to the buttons */
+button:hover{
+	color: red;
+	box-shadow: 5px -5px 5px blue;
+}
