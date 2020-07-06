@@ -121,7 +121,7 @@
         else if(e.target.id === 'show-fav'){
 
             window.open(
-                `superhero.html`,
+                `superHero.html`,
                   '_blank' 
             )
 
